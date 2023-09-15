@@ -99,7 +99,7 @@ justify-content: center;
   height: 382px;
   background-image: url("../images/person-in-wheelchair.avif");
   background-size: cover;
-  background-position: bottom center;
+  background-position: center -1rem;
 }
 
 .block5 {
@@ -241,7 +241,6 @@ justify-content: center;
 
   .block4 {
     // display: none;
-
     width: 1220px;
     background-position: center top;
     margin: 1rem auto;
