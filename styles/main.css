@@ -25,20 +25,21 @@ justify-content: center;
   width: 40vw;
  // width: 45rem;
   height: 815px;
-  height: 63vh;
+  height: 64.5vh;
   background-image: url("../images/man-on-couch.jpeg");
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
-  padding-left: 6rem;
+  align-items: center;
+  text-align: center;
+ // padding-left: 4.5rem;
   color: white;
 }
 
 .block1-header {
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
@@ -48,16 +49,17 @@ justify-content: center;
 
 .block1-sub-header {
   font-size: 2rem;
-  width: 60%;
+ // align-self: center;
+  //width: 60%;
 }
 
 .box1-button {
-  margin-top: 5rem;
+  margin-top: 3rem;
   border: none;
   padding: 1.5rem 6rem;
   background-color: #7e5000;
   color: white;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
@@ -65,7 +67,7 @@ justify-content: center;
   width: 497px;
   width: 18vw;
   height: 815px;
-  height: 63vh;
+  height: 64.5vh;
   background-image: url("../images/couple-at-laptop.jpeg");
   background-size: cover;
   background-position: bottom center;
@@ -74,7 +76,7 @@ justify-content: center;
 .block-container1 {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
 
 }
 
@@ -123,7 +125,7 @@ justify-content: center;
   width: 18vw;
  // width: 25rem;
   height: 826px;
-  height:64.5vh;
+  height: 66.5vh;
   background-size: cover;
   background-position: bottom center;
   background-color: black;
