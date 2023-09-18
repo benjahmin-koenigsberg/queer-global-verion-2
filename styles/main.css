@@ -1,11 +1,14 @@
 
-.top-section-container {
-  margin: auto;
-  margin-top: 5rem;
- display: flex;
-  justify-content: center;
-  gap: 3rem;
+#main > div , .block-container2 , .block-container3 {
+ // border: .5rem solid red;
+}
 
+.top-section-container {
+  margin: auto 0;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
   flex-wrap: wrap;
 }
 
@@ -13,14 +16,16 @@
 margin: auto;
 display: flex;
 justify-content: center;
-//gap: 4rem;
+//gap: 2rem;
 //flex-wrap: wrap;
 }
 
 .block1 {
   width: 900px;
+  width: 40vw;
  // width: 45rem;
   height: 815px;
+  height: 63vh;
   background-image: url("../images/man-on-couch.jpeg");
   background-size: cover;
   background-position: center;
@@ -58,7 +63,9 @@ justify-content: center;
 
 .block2 {
   width: 497px;
+  width: 18vw;
   height: 815px;
+  height: 63vh;
   background-image: url("../images/couple-at-laptop.jpeg");
   background-size: cover;
   background-position: bottom center;
@@ -73,13 +80,20 @@ justify-content: center;
 
 .block3 {
   width: 458px;
+  width: 18vw;
   height: 382px;
+  height: 30vh;
   background-color: black;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: center;
   padding-left: 3rem;
+}
+
+.block3-button , .block3-button:hover{
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .block3 p {
@@ -95,8 +109,10 @@ justify-content: center;
 }
 
 .block4 {
-  width: 458px;
+  //width: 458px;
+  width: 18vw;
   height: 382px;
+  height: 30vh;
   background-image: url("../images/person-in-wheelchair.avif");
   background-size: cover;
   background-position: center -1rem;
@@ -104,8 +120,10 @@ justify-content: center;
 
 .block5 {
   width: 477px;
+  width: 18vw;
  // width: 25rem;
   height: 826px;
+  height:64.5vh;
   background-size: cover;
   background-position: bottom center;
   background-color: black;
@@ -117,6 +135,7 @@ justify-content: center;
   display: flex;
 // border: .5rem solid red;
  gap: 3rem;
+ //flex-wrap: wrap;
 
 }
 
@@ -124,6 +143,7 @@ justify-content: center;
  // border: .2rem solid red;
   display: flex;
   gap: 3rem;
+  //flex-wrap: wrap;
 
 }
 
@@ -132,11 +152,14 @@ justify-content: center;
   flex-direction: column;
   //border: .2rem solid red;
   gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .block6 {
   width: 458px;
+  width: 18vw;
   height: 388px;
+  height: 30vh;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -144,6 +167,11 @@ justify-content: center;
   justify-content: center;
   padding-left: 3rem;
 }
+
+.block6-button , .block6-button:hover {
+cursor: pointer;
+text-decoration: none;
+  }
 
 .block6 p {
   color: white;
@@ -159,7 +187,9 @@ justify-content: center;
 
 .block7 {
   width: 912px;
+  width: 39.5vw;
   height: 388px;
+  height: 30vh;
   background-image: url("../images/person-smiling.jpeg");
   background-size: cover;
   background-position: center;
@@ -168,7 +198,9 @@ justify-content: center;
 
 .block8 {
   width: 893px;
+  width: 39.5vw;
   height: 388px;
+  height: 30vh;
   background-image: url("../images/person-looking-away.jpeg");
   background-size: cover;
   background-position: center;
@@ -177,7 +209,9 @@ justify-content: center;
 
 .block9 {
   width: 477px;
+  width: 18vw;
   height: 388px;
+  height: 30vh;
   background-image: url("../images/person-staring.jpeg");
   background-size: cover;
   background-position: center;
@@ -191,12 +225,16 @@ justify-content: center;
 
 @media only screen and (max-width: 1440px) {
 
+
+
+
   .block1 {
     // width: 1220px;
-   // width: 95%;
+    width: 95%;
+    width: 100vw;
     background-image: url("../images/man-on-couch.jpeg") ;
     background-size: cover;
-    //background-size: 80% no-repeat;
+    background-size: 80% no-repeat;
     background-position: center;
     background-repeat: none;
     display: flex;
@@ -230,6 +268,7 @@ justify-content: center;
     height: 382px;
     //width: 1030px;
     width: 1220px;
+    width: 100vw;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -242,6 +281,7 @@ justify-content: center;
   .block4 {
     // display: none;
     width: 1220px;
+    width: 100vw;
     background-position: center top;
     margin: 1rem auto;
   }
@@ -250,6 +290,7 @@ justify-content: center;
   .block6 {
     width: 1030px;
     width: 1220px;
+    width: 100vw;
     height: 382px;
     background-color: black;
     display: flex;
@@ -262,10 +303,12 @@ justify-content: center;
 
 
 
+
   .block9 {
     //margin: 2rem auto;
     //width: 1030px;
     width: 1220px;
+    width: 100vw;
     margin: 1rem  auto;
   }
 
@@ -273,5 +316,12 @@ justify-content: center;
      flex-wrap: wrap;
   }
 
-
 }
+
+/* @media only screen and (max-width: 600px) {
+
+ .block-container2, .block-container3 , .bottom-section-container {
+     flex-wrap: wrap;
+  }
+
+} */
