@@ -225,7 +225,9 @@ text-decoration: none;
 
 @media only screen and (max-width: 1440px) {
 
-
+.top-section-container, .bottom-section-container {
+  gap: 1;
+}
 
 
   .block1 {
@@ -234,26 +236,34 @@ text-decoration: none;
     width: 100vw;
     background-image: url("../images/man-on-couch.jpeg") ;
     background-size: cover;
-    background-size: 80% no-repeat;
+    //background-size: 80%;
     background-position: center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 2rem;
+    //padding: 2rem;
+    padding-left: 0;
     text-align: center;
   }
 
   .block1-header {
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+   // margin-bottom: 2rem;
   }
 
+  .block1-sub-header {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  width: 60%;
+}
+
   .box1-button {
-    margin-top: 5rem;
+    margin-top: 2rem;
     padding: 1.5rem 4rem;
     background-color: #7e5000;
     color: white;
@@ -266,6 +276,7 @@ text-decoration: none;
 
   .block3 {
     height: 382px;
+    height: 32vh;
     //width: 1030px;
     width: 1220px;
     width: 100vw;
@@ -282,6 +293,7 @@ text-decoration: none;
     // display: none;
     width: 1220px;
     width: 100vw;
+    height: 32vh;
     background-position: center top;
     margin: 1rem auto;
   }
@@ -292,6 +304,7 @@ text-decoration: none;
     width: 1220px;
     width: 100vw;
     height: 382px;
+    height: 32vh;
     background-color: black;
     display: flex;
     flex-direction: column;
