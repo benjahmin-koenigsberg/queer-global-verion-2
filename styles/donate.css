@@ -1,10 +1,8 @@
-/** @format */
-
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 
-.section {
+/* .section {
  padding: 1rem 0;
-}
+} */
 
 .section-header {
   font-size: 3rem;
@@ -14,12 +12,12 @@
 }
 
 .container {
-  max-width: 1180px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 1rem 1.5rem;
-  background: white;
-  border-radius: .5rem;
+    /* max-width: 1280px; */
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    background: white;
+    border-radius: .5rem;
 }
 
 
@@ -33,7 +31,7 @@
   font-family: "Open Sans", sans-serif;
   border: 0.25rem solid lightblue;
   border-radius: 0.5rem;
-  position: relative;
+  /* position: relative; */
   transition: top ease 0.5s;
   margin: 1rem;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
@@ -42,9 +40,9 @@
 .plan-inner {
   background: #fff;
   margin: 0 auto;
-  min-width: 280px;
-  max-width: 100%;
-  position: relative;
+  /* min-width: 280px;
+  max-width: 100%; */
+  /* position: relative; */
 }
 
 .plan:hover {
@@ -182,4 +180,16 @@
   width: 30ch;
   margin: auto;
   line-height: 1.25rem;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+
+ .tier-description {
+  width: auto;
+
+}
+
+
 }
