@@ -7,19 +7,24 @@
   /* border: .1rem solid black; */
 }
 
+
+
 body{
 font-family: 'Open Sans', sans-serif;
 padding: 0;
 margin: 0;
 display: block;
+display: flex;
+min-height: 100vh;
+flex-direction: column;
 
 }
 
-body {
-   display: flex;
+/* body {
+  display: flex;
   min-height: 100vh;
   flex-direction: column;
-}
+} */
 
 
 #main {
