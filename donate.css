@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 
-.section {
+/* .section {
  padding: 1rem 0;
-}
+} */
 
 .section-header {
   font-size: 3rem;
@@ -185,9 +185,11 @@
 
 @media only screen and (max-width: 1000px) {
 
+
  .tier-description {
   width: auto;
 
 }
+
 
 }
